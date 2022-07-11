@@ -15,7 +15,7 @@ st.image("example.png", use_column_width=True)
 
 st.markdown("""
 ## How to use the tool?
-- Upload SVG image
+- Upload SVG image exported from Inkscape
 - Change conversion options as per requirement
 - Press the <kbd>Convert</kbd> button
 -----
@@ -73,6 +73,9 @@ if image is not None:
             mime="plain/text")
 
 st.markdown("""
+
 -----
+Please request features and report bugs at this [GitHub repository](https://github.com/InputBlackBoxOutput/streamlit-svg2mod)
+
 ##### Made with lots of ⏱️, 📚 and ☕ by InputBlackBoxOutput
 """)
